@@ -1,4 +1,4 @@
-# 🚀 Arrays DSA – LeetCode Practice
+# 🚀 Arrays DSA – Problems Practice
 
 This repository contains solutions to the most important **Array Data Structure & Algorithm problems** frequently asked in coding interviews.
 
@@ -8,11 +8,11 @@ Language Used: **Java**
 
 ## 📚 Problem List (30 Most Important Array Questions)
 
-1. Find largest & smallest element
-2. Reverse array
-3. Rotate array by k positions
-4. Remove duplicates
-5. Find missing number
+1. Find largest & smallest element ✅
+2. Reverse array ✅ 
+3. Rotate array by k positions ✅
+4. Remove duplicates ✅
+5. Find missing number ✅
 6. Find second largest
 7. Kadane’s algorithm (max subarray)
 8. Subarray with given sum
