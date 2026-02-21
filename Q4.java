@@ -1,34 +1,26 @@
-//4. Check if number is present in array
-
-import java.util.Scanner;
-
+// 4.Remove Duplicates
 public class Q4 {
-    public static int[] makeFreqArray(int array[]){
-        int frequency[] = new int[(int)Math.pow(10, 5)];
-        for(int i=0; i<array.length; i++){
-            frequency[array[i]]++;
+     public static void printArray(int array[], int n){
+        for(int i=0; i<n; i++){
+            System.out.print(array[i]+" ");
         }
-        return frequency;
     }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int array[] = {5,34,100,6000,700,70,5};
-        int quries = 3;
-
-        int frequency[] = makeFreqArray(array);
-
-        for(int i=0; i<quries; i++){
-            System.out.print("Enter the number: ");
-            int num = sc.nextInt();
-
-            if(frequency[num] > 0){
-                System.out.println("Yes");
-            }else{
-                System.out.println("No");
+    public static int removeDuplicates(int[] nums) {
+        int j = 0;
+        for(int i=1; i<nums.length; i++){
+            if(nums[i] != nums[j]){                
+                j++;
+                nums[j] = nums[i];                            
             }
         }
-
-        sc.close();
-
+        return j+1; // total unique eliments
     }
+    public static void main(String[] args) {
+        // int array[] = {0,0,1,1,1,2,2,3,3,4};
+        int array[] = {1,1,2};
+        int newlength = removeDuplicates(array);
+        printArray(array,newlength);
+        
+    }
+
 }
