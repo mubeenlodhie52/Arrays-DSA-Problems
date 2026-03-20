@@ -13,12 +13,12 @@ Language Used: **Java**
 3. Rotate array by k positions ✅
 4. Remove duplicates ✅
 5. Find missing number ✅
-6. Find second largest
-7. Kadane’s algorithm (max subarray)
-8. Subarray with given sum
-9. Merge two sorted arrays
-10. Intersection of arrays
-11. Union of arrays
+6. Find second largest ✅
+7. Kadane’s algorithm (max subarray) ✅
+8. Subarray with given sum ✅
+9. Merge two sorted arrays ✅
+10. Intersection of arrays ✅
+11. Union of arrays ✅
 12. Move all zeros to end
 13. Sort 0s, 1s, 2s
 14. Majority element
