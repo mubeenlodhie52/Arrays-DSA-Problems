@@ -19,7 +19,7 @@ Language Used: **Java**
 9. Merge two sorted arrays ✅
 10. Intersection of arrays ✅
 11. Union of arrays ✅
-12. Move all zeros to end
+12. Move all zeros to end ✅
 13. Sort 0s, 1s, 2s
 14. Majority element
 15. Buy & sell stock (1 transaction)
