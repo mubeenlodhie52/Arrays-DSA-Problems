@@ -21,8 +21,8 @@ Language Used: **Java**
 11. Union of arrays ✅
 12. Move all zeros to end ✅
 13. Sort 0s, 1s, 2s ✅
-14. Majority element
-15. Buy & sell stock (1 transaction)
+14. Majority element ✅
+15. Buy & sell stock (1 transaction) ✅
 16. Buy & sell stock (multiple transactions)
 17. Trapping rain water
 18. Chocolate distribution problem
